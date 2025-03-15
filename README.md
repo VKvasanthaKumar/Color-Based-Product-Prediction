@@ -4,12 +4,12 @@ Developed a web application that predicts products based on their colors using a
 Used For 
 VS Code 
 
-Download this all file will be used ☝️☝️☝️😀 top of files 
+Download all these files; they will be used. ☝️☝️☝️😀 (The files mentioned above are correct.)
 ---------------------
-Color_prediction.py 
-flask_2.py
-rgb.csv
-index_color.html
+Color_prediction.py ,
+flask_2.py ,
+rgb.csv ,
+index_color.html 
 ---------------------
 *** Refer the screeshot better understanding ***
 
@@ -25,7 +25,7 @@ Color-Based-Product-Prediction/
 │
 ├── sorted_products             # Optional
 │
-# not used for this Project any feature will be add this project need for (CSS, JavaScript, images) file used this ( Optional )
+                             # not used for this Project any feature will be add this project need for (CSS, JavaScript, images) file used this ( Optional )
 ├── static/                  # Folder for static files (CSS, JavaScript, images)
 │   └── styles.css           # Custom CSS file for styling (optional)
 
