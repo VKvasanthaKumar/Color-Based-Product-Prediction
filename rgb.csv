@@ -1,0 +1,53 @@
+name,red,green,blue
+Black,0,0,0
+White,255,255,255
+Red,255,0,0
+Lime,0,255,0
+Blue,0,0,255
+Yellow,255,255,0
+Cyan,0,255,255
+Magenta,255,0,255
+Silver,192,192,192
+Gray,128,128,128
+Maroon,128,0,0
+Olive,128,128,0
+Green,0,128,0
+Purple,128,0,128
+Teal,0,128,128
+Navy,0,0,128
+Orange,255,165,0
+Pink,255,192,203
+Brown,165,42,42
+Gold,255,215,0
+Beige,245,245,220
+Lavender,230,230,250
+Salmon,250,128,114
+Khaki,240,230,140
+Indigo,75,0,130
+Turquoise,64,224,208
+Violet,238,130,238
+Chocolate,210,105,30
+Orchid,218,112,214
+Dark Red,139,0,0
+Dark Green,0,100,0
+Dark Blue,0,0,139
+Light Gray,211,211,211
+Dark Gray,169,169,169
+Sky Blue,135,206,235
+Deep Pink,255,20,147
+Tomato,255,99,71
+Coral,255,127,80
+Dark Orange,255,140,0
+Dodger Blue,30,144,255
+Hot Pink,255,105,180
+Royal Blue,65,105,225
+Spring Green,0,255,127
+Deep Sky Blue,0,191,255
+Forest Green,34,139,34
+Crimson,220,20,60
+Dark Violet,148,0,211
+Sea Green,46,139,87
+Dark Khaki,189,183,107
+Fire Brick,178,34,34
+Slate Gray,112,128,144
+Midnight Blue,25,25,112
