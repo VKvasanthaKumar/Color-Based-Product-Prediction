@@ -15,19 +15,19 @@ index_color.html
 
 Color-Based-Product-Prediction/
 │
-└── Color_prediction.py         # Script for training your ML model ( first Run And Check )
+└── Color_prediction.py         # Script for training your ML model ( first Run And Check ) ,
 │
-├── flask_2.py                  # Main Flask application file
-├── rgb.csv                     # Color and Trained Machine Learning model
-├── sorted_products.csv         # Automatically created a this csv file in you are run  " Color_prediction.py " ( So Not Create a File  in manually ) Trained Machine Learning model
-├── templates/                  # Folder for HTML templates
-│   └── index_color.html        # Main HTML file with Bootstrap interface
+├── flask_2.py                  # Main Flask application file ,
+├── rgb.csv                     # Color and Trained Machine Learning model ,
+├── sorted_products.csv         # Automatically created a this csv file in you are run  " Color_prediction.py " ( So Not Create a File  in manually ) Trained Machine Learning model ,
+├── templates/                  # Folder for HTML templates ,
+│   └── index_color.html        # Main HTML file with Bootstrap interface ,
 │
-├── sorted_products             # Optional
+├── sorted_products             # Optional ,
 │
-                             # not used for this Project any feature will be add this project need for (CSS, JavaScript, images) file used this ( Optional )
-├── static/                  # Folder for static files (CSS, JavaScript, images)
-│   └── styles.css           # Custom CSS file for styling (optional)
+                             # not used for this Project any feature will be add this project need for (CSS, JavaScript, images) file used this ( Optional ) ,
+├── static/                  # Folder for static files (CSS, JavaScript, images) ,
+│   └── styles.css           # Custom CSS file for styling (optional) ,
 
 
 
