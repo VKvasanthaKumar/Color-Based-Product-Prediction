@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color-Based Product Sorting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        .product-card { margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding-top:50px ;">
+        <h1>Color Based Product Sorting</h1>
+        
+        <hr>
+
+       
+        <div class="row">
+
+        <div class="col-md-4">
+        <h2>Control System</h2>
+
+        <div class="row" padding-top="10px">
+
+        <div class="col-md-2">
+        <form action="/start" method="POST">
+            <button type="submit" class="btn btn-success">Start</button>
+        </form>
+        </div>
+
+        <div class="col-md-2">
+        <form action="/stop" method="POST" >	
+            <button type="submit" class="btn btn-danger">Stop</button>
+        </form>
+        </div>
+
+        </div>
+        </div>
+         
+        <div class="col-md-4">
+        <h2>Color Statistics</h2>
+       
+        
+        <ul>
+            {% for color, count in color_counts.items() %}
+                <li>{{ color }}: {{ count }}</li>
+            {% endfor %}
+        </ul>
+        </div>
+
+        <div class="col-md-4">
+          <!-- Upload New Product -->
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="image" class="form-label">Upload New Product Image:</label>
+                <input type="file" name="image" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+
+        </div>
+
+        </div>
+
+        
+
+        
+
+        <!-- Search by Color -->
+        <h2 style="padding-top: 10px; ">Search by Color</h2>
+        <form action="/search" method="GET">
+            <label for="color">Filter by Color:</label>
+            <select name="color" onchange="this.form.submit()">
+                <option value="All" >All</option>
+                {% for color in colors %}
+                    <option value="{{ color }}">{{ color }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" action="/search" class="btn btn-primary">Back</button>
+        </form>
+
+        <hr>
+
+        <!-- Display Products -->
+        <div class="row">
+            {% for product in products %}
+            <div class="col-md-4 product-card">
+                <div class="card">
+                   <!-- <img src="/uploads/{{ product.Filename }}" class="card-img-top" alt="{{ product.Color }}">-->
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.Color }}</h5>
+                        <p class="card-text">Timestamp: {{ product.Timestamp }}</p>
+                        
+                        <!-- Delete Button (Without JavaScript) -->
+                        <form action="/delete" method="POST">
+                            <input type="hidden" name="filename" value="{{ product.Filename }}">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
