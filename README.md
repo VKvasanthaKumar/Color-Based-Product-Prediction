@@ -30,4 +30,15 @@ Color-Based-Product-Prediction/
 │   └── styles.css           # Custom CSS file for styling (optional) ,
 
 
+-----------------------------------------
+
+Data Collection: Images or videos with labeled colors and products.
+Data Preprocessing: Resize, normalize, or convert images to a specific format.
+Model Building: Use models like:
+K-Nearest Neighbors (KNN)
+Support Vector Machine (SVM)
+Convolutional Neural Networks (CNN) if using images.
+Model Training: Train your model on the dataset.
+Model Evaluation: Check accuracy and performance.
+Model Deployment: Deploy the trained model using Flask.
 
