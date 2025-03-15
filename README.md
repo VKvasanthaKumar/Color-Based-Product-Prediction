@@ -4,10 +4,10 @@ Developed a web application that predicts products based on their colors using a
 Used For 
 VS Code 
 ------------------------
-Step 1 :   window -> Open Command Prompt -> install this packages
-           pip install opencv-python numpy pandas scikit-learn
-           pip install flask
-           pip install opencv-python opencv-python-headless opencv-contrib-python
+Step 1 :   window -> Open Command Prompt -> install this packages ,
+           pip install opencv-python numpy pandas scikit-learn ,
+           pip install flask ,
+           pip install opencv-python opencv-python-headless opencv-contrib-python ,
 ------------------------
 Step 2 :
 Download all these files; they will be used. ☝️☝️☝️😀 (The files mentioned above are correct.)
